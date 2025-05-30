@@ -10,7 +10,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese un numero");
         double numero = scanner.nextDouble();
-        
+
         if (numero > 0) {
             System.out.println("El numero es positivo");
         } else if (numero < 0) {
@@ -19,6 +19,7 @@ public class Main {
         else {
             System.out.println("El numero es 0");
         }
+
 
     }
 }
